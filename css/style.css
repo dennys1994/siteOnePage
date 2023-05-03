@@ -1,0 +1,64 @@
+body {
+  background-color: rgba(226, 222, 203, 1);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.menu {
+  display: flex;/*usada para alinhar os botões horizontalmente.*/
+  justify-content: center;/*centralizar os botões horizontalmente.*/
+  align-items: center;/*centralizar os botões verticalmente.*/
+  background-color: #3B9C9C;/*cor de fundo do menu*/
+  height: 60px;/*definir a altura do menu.*/
+  font-family: Montserrat, sans-serif;/**/
+}
+
+.menu a {
+  color: #fff;/*cor do texto dos botões*/
+  text-decoration: none;/*remover o sublinhado padrão dos links*/
+  margin: 0 20px;/*adicionar um espaço entre os botões*/
+  font-size: 18px;/* tamanho do texto*/
+}
+
+.menu a:hover {
+  text-decoration: underline;/*adicionar um sublinhado nos botões quando o mouse passa por cima*/
+}
+
+#hero {
+  background-color: #3B9C9C;
+  color: white;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #296F6F ;
+}
+
+iframe {
+  margin: auto;
+  display: block;
+}
+
+footer{
+  background-color: #296F6F ;
+}
